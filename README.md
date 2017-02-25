@@ -17,7 +17,21 @@ Does it change the number of circles when you input a new value?
 Examples:
 
 ```
-// later
+class Container extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      //something here
+    }
+  }
+
+  handleInputChange(e) {
+    //some spell here
+  }
+
+  render() {
+    //and finally more magic here
+  }
 ```
 
 ## Extra notes and tips
